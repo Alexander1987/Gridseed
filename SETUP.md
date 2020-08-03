@@ -16,6 +16,6 @@ sudo make
 
 sudo chmod +x cgminer
 
-./cgminer -o <POOL> -u <USER> -p <PASSWORD> --gridseed-options=baud=115200,freq=850,chips=5,usefifo=0,btc=16 --hotplug 0
+./cgminer -o "POOL" -u "USER" -p "PASSWORD" --gridseed-options=baud=115200,freq=850,chips=5,usefifo=0,btc=16 --hotplug 0
 
 EXAMPLE: $ ./cgminer -o stratum+tcp://beyondcoinpool.com:3333 -u BKJKT5ZpdxppVa8LDNxCYnfHHNNAA1Xdi1 -p x --gridseed-options=baud=115200,freq=850,chips=5,usefifo=0,btc=16 --hotplug 0
