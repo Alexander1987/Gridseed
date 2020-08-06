@@ -6,7 +6,7 @@ sudo apt-get install build-essential autoconf automake libtool pkg-config libcur
 
 sudo apt-get install libjansson-dev uthash-dev libncurses5-dev libudev-dev libusb-1.0-0-dev libevent-dev
 
-git clone github.com/dtbartle/cgminer-gc3355.git
+git clone https://github.com/dtbartle/cgminer-gc3355.git
 
 cd cgminer-gc3355
 
