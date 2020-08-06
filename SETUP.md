@@ -58,4 +58,4 @@ tail -f /var/log/syslog
 
 #Start Mining
 
-sudo ./minerd --freq=600 --gc3355=/dev/ttyUSB0 --url=<your pool> --userpass=user:pass
+sudo ./minerd --freq=600 --gc3355=/dev/ttyUSB0 --url="your pool" --userpass="username":"password"
